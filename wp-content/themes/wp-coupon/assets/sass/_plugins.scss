@@ -1,0 +1,131 @@
+// main: style.scss
+
+/* WP Users */
+.wpu-modal .wpu-form .custom-terms .wpu-accept-terms {
+    margin-top: 4px;
+}
+
+/* WooCommerce support */
+.products {
+    clear: both;
+    .woocommerce-loop-product__title {
+        font-size: 1.2em;
+    }
+    &.ui.grid.content-box {
+        margin: 0px;
+    }
+    .product {
+        img {
+            width: 100%;
+            height: auto;
+        }
+        padding-bottom: 40px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .button.add_to_cart_button {
+        margin-top: 10px;
+    }
+}
+
+.wc-archive-container {
+    .pagination.woocommerce-pagination {
+        margin-top: $gutter2;
+    }
+}
+
+.woocommerce-page {
+    .site-main .page-title {
+        display: none;
+    }
+}
+
+.woocommerce-result-count {
+    font-style: italic;
+}
+
+.woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count {
+    margin-bottom: 1.5em;
+}
+
+.woocommerce-ordering {
+    select {
+        padding: 7px;
+        margin-top: -10px;
+    }
+}
+
+.woocommerce ul.products li.product h3 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce button.button.alt {
+    background-color: $primary;
+    padding: 10px 20px 11px;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    border-radius: 2px;
+    &:hover {
+        background: #222222;
+        color: #FFF;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.woocommerce table.shop_table {
+    border-collapse: collapse;
+}
+
+.woocommerce .quantity .qty {
+    padding: 4px;
+}
+
+.woocommerce span.onsale {
+    padding: inherit;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.related.products h2, #tab-description h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
+    padding: 9px 14px;
+    font-weight: bold;
+}
+
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+    width: 102px;
+    padding: 9px 6px 8px;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background: $primary;
+}
+
+.ui.grid.products > .column:not(.row) {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}

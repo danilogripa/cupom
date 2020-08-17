@@ -1,0 +1,14 @@
+Changelogu
+## Version 1.0.4
+* Fix a bug could not seach stores on theme 1.1.8
+
+## Version 1.0.3
+
+## Version 1.0.2
+* Improve store selector.
+* User can add new store.
+* Add options settings.
+* Update .pot file.
+
+## Version 1.0.0
+* Release.

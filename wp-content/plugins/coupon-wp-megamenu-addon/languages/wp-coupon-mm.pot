@@ -1,0 +1,101 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mega Menu for Coupon WP theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Jul 16 2016 08:59:25 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Sat Jul 16 2016 08:59:27 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../admin.php:35
+msgid "Category"
+msgstr ""
+
+#: ../admin.php:35
+msgid "Store"
+msgstr ""
+
+#: ../admin.php:166
+msgid "Enable mega menu"
+msgstr ""
+
+#: ../admin.php:170
+msgid "Mega Items"
+msgstr ""
+
+#: ../admin.php:173
+msgid "Search coupon stores or categories"
+msgstr ""
+
+#: ../admin.php:193
+msgid "Custom HTML code"
+msgstr ""
+
+#: ../admin.php:200
+msgid "Display style"
+msgstr ""
+
+#: ../admin.php:202 ../admin.php:213 ../admin.php:225
+msgid "Default"
+msgstr ""
+
+#: ../admin.php:203
+msgid "Show coupon number"
+msgstr ""
+
+#: ../admin.php:204
+msgid "Show thumbnail"
+msgstr ""
+
+#: ../admin.php:211
+msgid "Number items per row"
+msgstr ""
+
+#: ../admin.php:223
+msgid "Content width"
+msgstr ""
+
+#: ../admin.php:256
+msgid "Mega"
+msgstr ""
+
+#: ../admin.php:257
+msgid "Loading..."
+msgstr ""
+
+#. Name of the plugin
+msgid "Mega Menu for Coupon WP theme"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://smooththemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add Mega Menu for Coupon WP theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "SmoothThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://smoothemes.com"
+msgstr ""

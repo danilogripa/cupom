@@ -1,0 +1,8 @@
+== Version 1.0.3 ==
+* Update content layout
+
+== Version 1.0.2 ==
+* Allow add custom content when empty items.
+
+== Version 1.0.1 ==
+* Release.

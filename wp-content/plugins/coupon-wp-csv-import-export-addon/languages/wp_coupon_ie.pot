@@ -1,0 +1,319 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Coupon import/export\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Jul 12 2016 08:03:08 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Tue Jul 12 2016 08:03:10 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WP Coupon import/export"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://smooththemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Export coupons to csv, Import coupons form csv."
+msgstr ""
+
+#. Author of the plugin
+msgid "SmoothThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://smoothemes.com"
+msgstr ""
+
+#: ../index.php:58
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../index.php:121
+msgid "Nothing saved."
+msgstr ""
+
+#: ../index.php:142
+msgid "Please select a .CSV file."
+msgstr ""
+
+#: ../index.php:143
+msgid "Starting import..."
+msgstr ""
+
+#: ../index.php:144
+msgid "All done. Have fun !"
+msgstr ""
+
+#: ../index.php:145
+msgid "Do you want cancel import data ?"
+msgstr ""
+
+#: ../index.php:146
+msgid "Some fields were not set, Do you want to continue import ?"
+msgstr ""
+
+#: ../index.php:147
+msgid ""
+"Import coupons script is running, do you want to close window and stop "
+"importing coupons ?"
+msgstr ""
+
+#: ../index.php:164
+msgid "Coupon title"
+msgstr ""
+
+#: ../index.php:168
+msgid "Coupon content"
+msgstr ""
+
+#: ../index.php:172
+msgid "Coupon Excerpt"
+msgstr ""
+
+#: ../index.php:177
+msgid "Coupon Status"
+msgstr ""
+
+#: ../index.php:182
+msgid "Date added"
+msgstr ""
+
+#: ../index.php:187
+msgid "Coupon type"
+msgstr ""
+
+#: ../index.php:191
+msgid "Coupon expires"
+msgstr ""
+
+#: ../index.php:195
+msgid "Coupon code"
+msgstr ""
+
+#: ../index.php:199
+msgid "Destination url"
+msgstr ""
+
+#: ../index.php:203
+msgid "Exclusive"
+msgstr ""
+
+#: ../index.php:208
+msgid "Print image url"
+msgstr ""
+
+#: ../index.php:213
+msgid "Stores"
+msgstr ""
+
+#: ../index.php:218
+msgid "Categories"
+msgstr ""
+
+#: ../index.php:222
+msgid "Author"
+msgstr ""
+
+#: ../index.php:230
+msgid "Store name"
+msgstr ""
+
+#: ../index.php:234
+msgid "Store slug"
+msgstr ""
+
+#: ../index.php:239
+msgid "Store description"
+msgstr ""
+
+#: ../index.php:243
+msgid "Store Parent"
+msgstr ""
+
+#: ../index.php:247
+msgid "Store home url"
+msgstr ""
+
+#: ../index.php:251
+msgid "Store affiliate URL"
+msgstr ""
+
+#: ../index.php:255
+msgid "Store heading"
+msgstr ""
+
+#: ../index.php:259
+msgid "Store is featured"
+msgstr ""
+
+#: ../index.php:263
+msgid "Store extra info"
+msgstr ""
+
+#: ../index.php:267
+msgid "Store thumbnail"
+msgstr ""
+
+#: ../index.php:274
+msgid "Category name"
+msgstr ""
+
+#: ../index.php:278
+msgid "Category slug"
+msgstr ""
+
+#: ../index.php:282
+msgid "Category description"
+msgstr ""
+
+#: ../index.php:286
+msgid "Category Parent"
+msgstr ""
+
+#: ../index.php:290
+msgid "Icon"
+msgstr ""
+
+#: ../index.php:294
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/class-import.php:169
+#, php-format
+msgid "Coupon: #%1$s - %2$s saved."
+msgstr ""
+
+#: ../inc/class-import.php:306
+#, php-format
+msgid "Store: #%1$s - %2$s saved."
+msgstr ""
+
+#: ../inc/class-import.php:389
+#, php-format
+msgid "Category: #%1$s - %2$s saved."
+msgstr ""
+
+#: ../inc/handle-upload-file.php:28
+msgid "File is valid, and was successfully uploaded."
+msgstr ""
+
+#: ../inc/handle-upload-file.php:38
+msgid "Could not save upload file."
+msgstr ""
+
+#: ../inc/handle-upload-file.php:54
+msgid "Could not upload file."
+msgstr ""
+
+#: ../tpl/export.php:44
+msgid "Coupons CSV Export"
+msgstr ""
+
+#: ../tpl/export.php:45
+msgid ""
+"When you click the button below WordPress will create an CSV file for you to "
+"save to your computer."
+msgstr ""
+
+#: ../tpl/export.php:46
+msgid ""
+"Once you’ve saved the download file, you can use the Import function to "
+"import the content from this site."
+msgstr ""
+
+#: ../tpl/export.php:47
+msgid "Choose what to export"
+msgstr ""
+
+#: ../tpl/export.php:50
+msgid "Store:"
+msgstr ""
+
+#: ../tpl/export.php:52 ../tpl/export.php:66
+msgid "All"
+msgstr ""
+
+#: ../tpl/export.php:59
+msgid "Authors:"
+msgstr ""
+
+#: ../tpl/export.php:72
+msgid "Start date:"
+msgstr ""
+
+#: ../tpl/export.php:74 ../tpl/export.php:79
+msgid "All date"
+msgstr ""
+
+#: ../tpl/export.php:77
+msgid "End date:"
+msgstr ""
+
+#: ../tpl/export.php:83
+msgid "Download Export File"
+msgstr ""
+
+#: ../tpl/import.php:8
+msgid "Coupons CSV Import"
+msgstr ""
+
+#: ../tpl/import.php:10
+#, php-format
+msgid "If you have a csv file of coupons, you may import here, %1$s"
+msgstr ""
+
+#: ../tpl/import.php:10
+msgid "Download example csv"
+msgstr ""
+
+#: ../tpl/import.php:13
+msgid "Upload Now"
+msgstr ""
+
+#: ../tpl/import.php:37
+msgid "Some fields do not matches of data structure. Please re-setup before import."
+msgstr ""
+
+#: ../tpl/import.php:43
+msgid "Coupons Settings"
+msgstr ""
+
+#: ../tpl/import.php:53 ../tpl/import.php:79 ../tpl/import.php:104
+msgid "---Select field---"
+msgstr ""
+
+#: ../tpl/import.php:69
+msgid "Store Settings"
+msgstr ""
+
+#: ../tpl/import.php:94
+msgid "Category Settings"
+msgstr ""
+
+#: ../tpl/import.php:118
+msgid "Start Import"
+msgstr ""
+
+#: ../tpl/import.php:120
+msgid "Cancel"
+msgstr ""

@@ -1,0 +1,53 @@
+.ui-datepicker {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 8px 5px;
+}
+.ui-datepicker-header .ui-datepicker-prev { float: left; cursor: pointer; }
+.ui-datepicker-header .ui-datepicker-next { float: right; cursor: pointer; }
+.ui-datepicker-title { font-weight: bold; text-align: center; margin-bottom: 8px; }
+.ui-datepicker-calendar { margin-bottom: 0px; }
+.ui-datepicker-today a { font-weight: bold; color: #FFA319; }
+
+.search-stores {
+    width: 100%;
+}
+.cs-ajax-results {
+    list-style: none;
+    padding: 0px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 0.285714rem;
+    margin-top: 15px;
+    display: none;
+    width: 100%;
+}
+.cs-ajax-results.not-found {
+    border: none;
+    border-radius: 0px;
+}
+.cs-ajax-results .item {
+    padding: 10px 15px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    cursor: pointer;
+}
+.cs-ajax-results .item:last-child {
+    border-bottom: none;
+}
+.cs-ajax-results .item:hover {
+    background: #F5F5F5;
+}
+.cs-ajax-results .store-name {
+  font-weight: bold;
+}
+
+.store-add-new {
+    display: none;
+    margin-top: 15px;
+}
+.new-store-form  {
+    display: none;
+}
+.message.not-login-notice {
+    display: block !important;
+}

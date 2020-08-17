@@ -1,0 +1,133 @@
+.so-builder-toolbar .so-tool-button.so-prebuilt-add {
+    display: none !important;
+}
+
+
+.st-widget-ui-items {
+    margin-bottom: 20px;
+}
+.st-widget-ui-items .ui-items {
+    margin-bottom: 20px;
+}
+.st-widget-ui-items .item:after {
+    clear: both;
+    content: ' '; display: block;
+}
+.st-widget-ui-items .item {
+    border: 1px solid #ededed;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #ffffff;
+}
+.st-widget-ui-items .item.ui-sortable-placeholder {
+    border: 1px dashed #ededed;
+    height: 30px;
+    display: block;
+}
+
+.st-widget-ui-items .item .toggle:before {
+    content: "\f142";
+    font-family: "dashicons";
+}
+.st-widget-ui-items .item.closed .toggle:before {
+    content: "\f140";
+}
+.st-widget-ui-items .item.closed  .item-settings {
+    display: none;
+}
+
+.st-widget-ui-items .item .toggle {
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    display: block;
+    font-size: 22px;
+}
+.st-widget-ui-items .item .handle {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: #F5F5F5;
+
+    cursor: move;
+
+}
+.st-widget-ui-items .item .ellipsis{
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 70%;
+    word-wrap: normal;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+
+.st-widget-ui-items .item .item-index {
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 87%;
+    word-wrap: normal;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    color: #666666;
+    padding: 0px 0px 0px 10px;
+}
+
+
+
+.st-widget-ui-items .item-settings {
+    position: relative;
+    border-top: 1px solid #ededed;
+}
+.st-widget-ui-items .item-settings .actions {
+    padding: 0px 10px 10px;
+}
+.st-widget-ui-items .element-thumbnail {
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+.st-widget-ui-items .element-thumbnail .thumb-preview {
+    cursor: pointer;
+    border: 1px solid #ededed;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+}
+.st-widget-ui-items .element-thumbnail img {
+    width: 100%;
+}
+
+
+.st-widget-ui-items .element-settings{
+    margin-left: 100px;
+    padding: 5px 5px 5px 0px;
+}
+.st-widget-ui-items .element-settings .element {
+    display: block;
+    margin: 5px 0px 10px;
+}
+.st-widget-ui-items .element-settings .element:after {
+    clear: both; content: " "; display: block;
+}
+
+.st-widget-ui-items .element-settings .element label {
+    display: block;
+}
+.st-widget-ui-items .element-settings .element {
+
+}

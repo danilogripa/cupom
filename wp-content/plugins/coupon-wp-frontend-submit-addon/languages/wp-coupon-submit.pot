@@ -1,0 +1,316 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-17 09:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: coupon-submit.php:99
+msgid "Please enter coupon title."
+msgstr ""
+
+#: coupon-submit.php:100
+msgid "Please enter coupon description."
+msgstr ""
+
+#: coupon-submit.php:101
+msgid "Please select a store."
+msgstr ""
+
+#: coupon-submit.php:102
+msgid "Please select a category."
+msgstr ""
+
+#: coupon-submit.php:103
+msgid "Store does not exists please select other."
+msgstr ""
+
+#: coupon-submit.php:104
+msgid "Please select coupon type."
+msgstr ""
+
+#: coupon-submit.php:105
+msgid "Please enter image url."
+msgstr ""
+
+#: coupon-submit.php:106
+msgid "Please select a image to upload"
+msgstr ""
+
+#: coupon-submit.php:107
+msgid "Please agree to the Terms and Conditions before submit."
+msgstr ""
+
+#: coupon-submit.php:108
+msgid ""
+"Please enter coupon expires. If you don't know expires let check Don't know "
+"the expiration date."
+msgstr ""
+
+#: coupon-submit.php:109
+msgid "Please enter coupon code."
+msgstr ""
+
+#: coupon-submit.php:110
+msgid "You have not permission to edit this coupon"
+msgstr ""
+
+#: coupon-submit.php:111
+msgid "An error occurred please try again later"
+msgstr ""
+
+#: coupon-submit.php:775
+msgid "Your coupon has been saved."
+msgstr ""
+
+#: coupon-submit.php:781
+msgid "Your coupon published"
+msgstr ""
+
+#: coupon-submit.php:783
+msgid "Your coupon is pending review "
+msgstr ""
+
+#: coupon-submit.php:803
+msgid "There was some errors with your submission"
+msgstr ""
+
+#: coupon-submit.php:839 coupon-submit.php:937
+msgid "Still not found your store ?"
+msgstr ""
+
+#: coupon-submit.php:840
+msgid "Oops! That store can&rsquo;t be found."
+msgstr ""
+
+#: coupon-submit.php:844 coupon-submit.php:1101
+msgid "Your must login to submit coupon"
+msgstr ""
+
+#: coupon-submit.php:908 coupon-submit.php:920
+msgid "Select a store"
+msgstr ""
+
+#: coupon-submit.php:911
+msgid "Select store"
+msgstr ""
+
+#: coupon-submit.php:926
+msgid "Search store..."
+msgstr ""
+
+#: coupon-submit.php:928
+msgid "Type store name and choice your store."
+msgstr ""
+
+#: coupon-submit.php:939
+msgid "Click %1$s to add new store."
+msgstr ""
+
+#: coupon-submit.php:939
+msgid "here"
+msgstr ""
+
+#: coupon-submit.php:944
+msgid "Store name"
+msgstr ""
+
+#: coupon-submit.php:949
+msgid "Store URL"
+msgstr ""
+
+#: coupon-submit.php:955
+msgid "Store logo"
+msgstr ""
+
+#: coupon-submit.php:960
+msgid "Upload logo"
+msgstr ""
+
+#: coupon-submit.php:967 options.php:31
+msgid "Add new store"
+msgstr ""
+
+#: coupon-submit.php:977
+msgid "Close"
+msgstr ""
+
+#: coupon-submit.php:997
+msgid "Select Category *"
+msgstr ""
+
+#: coupon-submit.php:1017
+msgid "Offer Type *"
+msgstr ""
+
+#: coupon-submit.php:1018
+msgid "Coupon Code"
+msgstr ""
+
+#: coupon-submit.php:1019
+msgid "Sale"
+msgstr ""
+
+#: coupon-submit.php:1020
+msgid "Printable"
+msgstr ""
+
+#: coupon-submit.php:1025
+msgid "Add code or change offer type"
+msgstr ""
+
+#: coupon-submit.php:1026
+msgid "Code"
+msgstr ""
+
+#: coupon-submit.php:1032
+msgid "Coupon image"
+msgstr ""
+
+#: coupon-submit.php:1035
+msgid "Print coupon image"
+msgstr ""
+
+#: coupon-submit.php:1037
+msgid "Click icon to switch input method"
+msgstr ""
+
+#: coupon-submit.php:1040
+msgid "Image URL"
+msgstr ""
+
+#: coupon-submit.php:1042
+msgid "Upload a image"
+msgstr ""
+
+#: coupon-submit.php:1043
+msgid "Input image URL"
+msgstr ""
+
+#: coupon-submit.php:1069
+msgid "Coupon Aff URL"
+msgstr ""
+
+#: coupon-submit.php:1075
+msgid "Exp Date : dd/mm/yyyy"
+msgstr ""
+
+#: coupon-submit.php:1084
+msgid "Don't know the expiration date."
+msgstr ""
+
+#: coupon-submit.php:1088
+msgid "Offer Title"
+msgstr ""
+
+#: coupon-submit.php:1092
+msgid "Offer Description"
+msgstr ""
+
+#: coupon-submit.php:1114
+msgid "Submit"
+msgstr ""
+
+#. Base ID
+#: options.php:11 widget.php:17
+msgid "Coupon Submit"
+msgstr ""
+
+#: options.php:20
+msgid "Who can submit coupons"
+msgstr ""
+
+#: options.php:23
+msgid "Anyone"
+msgstr ""
+
+#: options.php:24
+msgid "Only registered"
+msgstr ""
+
+#: options.php:32
+msgid "Allow user add new custom store on front-end."
+msgstr ""
+
+#: options.php:39
+msgid "Custom store logo"
+msgstr ""
+
+#: options.php:40
+msgid "Allow user upload custom store logo on front-end."
+msgstr ""
+
+#: options.php:47
+msgid "Coupon status"
+msgstr ""
+
+#: options.php:48
+msgid "Coupon status when user submit."
+msgstr ""
+
+#: options.php:51
+msgid "Publish if submitted buy admin else pending"
+msgstr ""
+
+#: options.php:52
+msgid "Pending"
+msgstr ""
+
+#: options.php:53
+msgid "Publish"
+msgstr ""
+
+#: widget.php:18
+msgid "Display submit coupon form."
+msgstr ""
+
+#: widget.php:61
+msgid "Submit new coupon"
+msgstr ""
+
+#: widget.php:62
+msgid "Submit {store_name}'s Coupon"
+msgstr ""
+
+#: widget.php:65
+msgid "Title:"
+msgstr ""
+
+#: widget.php:70
+msgid "Single Store Title:"
+msgstr ""
+
+#: widget.php:73
+msgid ""
+"The special title that will display on store page instead of Title, "
+"available tag: {store_name}"
+msgstr ""
+
+#. Name of the plugin
+msgid "Coupon WP Frontend Submit Addon"
+msgstr ""
+
+#. Description of the plugin
+msgid "Submit coupon on front-end."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://famethemes.com/plugins/coupon-wp-frontend-submit-addon/"
+msgstr ""
+
+#. Author of the plugin
+msgid "famethemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://famethemes.com/"
+msgstr ""

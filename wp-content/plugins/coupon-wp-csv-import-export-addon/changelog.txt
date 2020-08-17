@@ -1,0 +1,28 @@
+## 1.0.9
+ - Fixed: Missing store name when export
+
+## 1.0.8
+ - Add discount value
+ 
+## 1.0.7
+ - Change support csv to excel import/export file.
+
+## 1.0.6
+ - Fix issue can not import if have none printable chars
+
+## 1.0.5
+- Fix can not upload csv file in WP 4.7.1
+
+## 1.0.4
+- Improve store and category import.
+- Add more hook for 3rd party.
+
+## 1.0.3
+-  Overwrite the existing codes when import.
+
+## 1.0.2
+- Improve progress log.
+- Update store, category data if exists.
+
+## 1.0.0
+- Release.

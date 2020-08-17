@@ -1,0 +1,12 @@
+title,content,excerpt,status,type,expires,code,printable_url,destination_url,store,category,date,exclusive,author,store_name,store_slug,store_description,store_parent,store_url,store_aff_url,store_heading,store_is_featured,store_extra_info,store_image,category_name,category_slug,category_description,category_parent,category_icon,category_cat_image
+,,,,,,,,,,,,,,Ebay,ebay,This is amazon store description,,http://ebay.com/,http://ebay.com/?aff=sa,%store_name% Coupons and code,,Ebay store extra info here,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/300px-EBay_logo.svg.png,,,,,,
+,,,,,,,,,,,,,,Amazon,amazon,This is ebay store description,,http://amazon.com/,http://amazon.com/?aff=sa,%store_name% Coupons and code,1,Amazon store extra info here,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,Phone,phone,Phone category description with icon thumbnail.,,phone icon,
+,,,,,,,,,,,,,,,,,,,,,,,,Tivi,tivi,Tivi category description with image thumb,,,http://cdn.mediamart.vn/Product/10647_tivi-plasma-samsung-ps43f4900.jpg
+,,,,,,,,,,,,,,,,,,,,,,,,Tivi Child cat,tivi-child-cat,Tivi  child cat category description,tivi,,
+,,,,,,,,,,,,,,,,,,,,,,,,Book,book,Book cagtegory description,,book icon,
+Save 40% for new phone $Û´¢£____,Lorem ipsum dolor sit amet,Coupon phone excerpt,,code,5/23/16 11:00,CODEHERE,,,Apple,Phone,,,,,,,,,,,,,,,,,,,
+Save 15% for new book,Nunc eget libero nec quam dignissim varius sit amet ullamcorper ex,Coupon book excerpt,,code,5/23/16 11:00,CODBOOK,,,Amazon,Book,,,,,,,,,,,,,,,,,,,
+Save 35% for new tivi,Morbi sed arcu eu nisi hendrerit lacinia,Coupon tivi excerpt,,code,5/23/16 11:00,CODETIVI,,,Ebay,Tivi,,,,,,,,,,,,,,,,,,,
+Save 20% with print coupon,Morbi sed arcu eu nisi hendrerit lacinia,Print coupon,,print,,,,,Amazon,Phone,,,,,,,,,,,,,,,,,,,
+Save 15% for new year,Nunc eget libero nec quam dignissim varius sit amet ullamcorper ex,Example excerpt,,sale,,,,http://example.com/destination_url,Ebay,Book,,,,,,,,,,,,,,,,,,,

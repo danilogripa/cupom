@@ -1,0 +1,13 @@
+.st-type-summary {
+    font-size: 20px;
+    display: table;
+    width: 100%;
+}
+.st-type-summary > span {
+    display: table-cell;
+}
+
+.st-condition-field .cmb-row {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}

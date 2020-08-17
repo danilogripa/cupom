@@ -1,0 +1,304 @@
+// main: style.scss
+
+/* Entry Content
+------------------------------*/
+.entry-content {
+	cite {
+		display: block;
+		margin-top: $base/2;
+		&:before {
+			content: "- ";
+		}
+	}
+	table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+		padding: $base/1.3;
+	}
+
+	blockquote {
+		padding: $base $base*4 $base $base*1.4;
+		position: relative;
+		background: #f8f9f9;
+		border-left: 3px solid $primary;
+		font-style: italic;
+		p {
+			margin: 0px;
+		}
+
+	}
+	h3,h4,h5 {
+		margin-bottom: 15px;
+		font-weight: 600;
+	}
+}
+
+	/* WordPress caption style
+	------------------------------*/
+	.wp-caption {
+		max-width: 100%;
+		font-style: italic;
+		line-height: 1.35;
+		margin-bottom: $base*1.5;
+		img[class*="wp-image-"] {
+			display: block;
+			max-width: 98%;
+		}
+		.wp-caption-text {
+			margin: $base/2 0;
+		}
+	}
+
+	.wp-caption-text,
+	.entry-thumbnail-caption,
+	.cycle-caption {
+		font-style: italic;
+		line-height: 1.35;
+		font-size: 13px;
+	}
+
+	.alignleft,
+	.entry-thumbnail.thumbnail {
+		display: inline;
+		float: left;
+		margin-right: 30px;
+	}
+
+	.alignright {
+		display: inline;
+		float: right;
+		margin-left: 30px;
+	}
+
+	.aligncenter {
+		display: block;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img.wp-smiley {
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+		border: none;
+	}
+
+	.gallery-caption {
+		font-family: inherit;
+	}
+
+	.bypostauthor {
+		margin: 0;
+	}
+
+    /**
+    * 14.2 Galleries
+    */
+
+    .gallery {
+        margin-bottom: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+        .gallery-item {
+            display: inline-block;
+            padding: 15px;
+            text-align: center;
+            vertical-align: top;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .gallery-columns-2 .gallery-item {
+        max-width: 50%;
+    }
+
+    .gallery-columns-3 .gallery-item {
+        max-width: 33.33%;
+    }
+
+    .gallery-columns-4 .gallery-item {
+        max-width: 25%;
+    }
+
+    .gallery-columns-5 .gallery-item {
+        max-width: 20%;
+    }
+
+    .gallery-columns-6 .gallery-item {
+        max-width: 16.66%;
+    }
+
+    .gallery-columns-7 .gallery-item {
+        max-width: 14.28%;
+    }
+
+    .gallery-columns-8 .gallery-item {
+        max-width: 12.5%;
+    }
+
+    .gallery-columns-9 .gallery-item {
+        max-width: 11.11%;
+    }
+
+    .gallery-icon img {
+        margin: 0 auto;
+    }
+
+    .gallery-caption {
+        color: #707070;
+        display: block;
+        padding-top: 5px;
+    }
+
+    .gallery-columns-6 .gallery-caption,
+    .gallery-columns-7 .gallery-caption,
+    .gallery-columns-8 .gallery-caption,
+    .gallery-columns-9 .gallery-caption {
+      display: none;
+    }
+
+
+
+/* Post
+------------------------------*/
+.post-entry {
+  .post-thumbnail {
+      img {
+        width: 100%;
+        height: auto;
+      }
+	  margin-bottom: 25px;
+  }
+  .post-meta {
+      position: relative;
+      margin-bottom: 25px;
+      &:after {
+          clear: both;
+          content: " "; display: block;
+      }
+
+      h2 {
+          clear: none;
+          font-size: 23px;
+          margin-bottom: 0px;
+          margin-top: -8px;
+          display: inline-block;
+      }
+      .author-avatar {
+          position: absolute;
+          top:0px;
+          left: 0px;
+          img {
+            @include border-radius(3px);
+          }
+      }
+      .author-avatar + .post-meta-data {
+          margin-left: 65px;
+          margin-top: 0px;
+      }
+      .meta-line-2 {
+          margin-bottom: 0px;
+          span {
+              &:after {
+                  content: "-";
+                  margin-right: 8px;
+                  margin-left: 8px;
+              }
+              &:last-child:after {
+                  content: "";
+                  margin-right: 0px;
+                  margin-left: 0px;
+              }
+          }
+      }
+
+  }
+
+  .post-content {
+      iframe, embed {
+          max-width: 100%;
+      }
+  }
+
+}
+
+.post-entry.shadow-box.sticky{
+    background-color: #fefbf7;
+}
+.related-coupons {
+	margin-bottom: 15px;
+}
+.list-unstyled {
+	list-style: none;
+	padding: 0px;
+}
+
+/* Comments
+------------------------------*/
+#comments {
+    .ui.comments {
+        max-width: 100%;
+    }
+    .comment {
+        .comment {
+            margin-left: 50px;
+        }
+    }
+    .content.shadow-box {
+        padding: 15px;
+    }
+}
+
+.comment-form {
+    .input{
+        position: relative;
+        margin-bottom: 15px;
+        span.required{
+            position: absolute;
+            right: 10px;
+            top: 18px;
+            color: #dd4c0c;
+            line-height: 0px;
+        }
+    }
+    .comment-form-comment {
+        textarea {
+            background: #ffffff;
+        }
+    }
+}
+.comment-respond {
+    margin-bottom: 10px;
+}
+.comments {
+    .comment-respond {
+        margin-top: 15px;
+    }
+}
+
+.right-sidebar .comment-respond textarea,
+.left-sidebar .comment-respond textarea {
+	width: 100%;
+}
+
+.comments-title.ui.dividing.header {
+	font-weight: normal;
+	border-bottom: none;
+	margin: 30px 0px;
+}
+
+.coupon-tags {
+	margin-top: 30px;
+}
+
+.single-coupon-comments {
+	margin-top: 30px;
+	.shadow-box {
+		box-shadow: none;
+	}
+	.comments-title.ui.dividing.header {
+		margin-top: 0px;
+	}
+}

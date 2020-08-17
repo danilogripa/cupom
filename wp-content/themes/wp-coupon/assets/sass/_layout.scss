@@ -1,0 +1,143 @@
+// main: style.scss
+
+// Site
+.site {
+	//max-width: $width;
+	margin: 0 auto;
+}
+.container {
+	max-width: $width;
+	padding: 0px 25px;
+	margin: 0 auto;
+	@extend .clearfix;
+	position: relative;
+	@include for(medium-screens) {
+		padding: 0px 30px;
+	}
+	@include for(large-screens) {
+		padding: 0px 50px;
+	}
+	@include for(screens-small) {
+		padding: 0px 15px;
+	}
+	@include for(screens-tiny) {
+		padding: 0px 10px;
+	}
+}
+
+// Main Content
+.site-content #content-wrap {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+.content-area {
+	width: 100%;
+	float: none;
+	padding-bottom: 40px;
+	@include for(medium-screens) {
+		width: percentage( 680px / $grid ); //680px
+		float: left;
+		padding-bottom: 0px;
+	}
+}
+.sidebar {
+	width: 100%;
+	float: none;
+	@include for(medium-screens) {
+		width: percentage( 300px / $grid ); // 300px
+		float: left;
+	}
+}
+
+.content-box {
+
+	@include for(screens-small) {
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+
+	padding: 30px;
+	margin-bottom: 30px;
+
+}
+
+.no-sidebar .content-box {
+	padding: 40px;
+	@include for(screens-medium) {
+		padding: 5px;
+	}
+}
+
+.no-sidebar .content-area {
+	width: 100%;
+}
+
+@include for(medium-screens) {
+	.left-sidebar .content-area {
+		float: right;
+	}
+
+	.left-sidebar .sidebar {
+
+	}
+
+	.right-sidebar .content-area {
+
+	}
+
+	.right-sidebar .sidebar {
+		float: right;
+	}
+}
+
+/**/
+.content-widgets {
+	.widget {
+		margin-bottom: $column;
+	}
+	&.frontpage-after-main {
+		.widget{
+			&:last-child {
+					margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+/* SiteOrigin page builder extended */
+$row_margin: percentage( ( ( $grid - ( 300px + 680px  ) )/ $grid  ) / 2 );
+.panel-grid {
+		margin-bottom: $column;
+}
+.wpc-pn-row-wrapper {
+	@include for(medium-screens) {
+		margin-left: - $row_margin;
+		margin-right: - $row_margin;
+
+		.panel-grid-cell {
+			padding-left: $row_margin;
+			padding-right: $row_margin;
+		}
+
+	}
+
+	@include for(screens-medium) {
+		margin-left: 0;
+		margin-right: 0;
+
+		.panel-grid-cell {
+			padding-left: 0;
+			padding-right: 0;
+			float: none !important;
+			width: 100% !important;
+			margin-bottom: $column;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+	}
+}
+

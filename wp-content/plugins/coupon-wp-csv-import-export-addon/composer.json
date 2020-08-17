@@ -1,0 +1,12 @@
+{
+    "name": "truongsa/coupon-wp-csv-import-export-addon",
+    "authors": [
+        {
+            "name": "TruongSa",
+            "email": "shrimp2t@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-develop"
+    }
+}

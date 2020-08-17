@@ -1,0 +1,102 @@
+
+.cmb2-icon-selected {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 5px;
+}
+.cmb2-icon-selected i {
+    font-size: 28px;
+    line-height: 37px;
+    margin-right: 0px;
+}
+
+.cmb2-search-icons {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.cmb2-list-icons {
+    padding: 10px;
+    margin-top: 5px;
+    clear: both;
+    background: #FFFFFF;
+    max-height: 300px;
+    overflow: auto;
+}
+.cmb2-list-icons .hide, .cmb2-list-icons.hide  {
+    display: none;
+}
+.cmb2-list-icons div {
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+.cmb2-list-icons div i {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 37px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    min-width: initial;
+    padding: 0px;
+    cursor: pointer;
+    background: #FFFFFF;
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    overflow: initial;
+}
+.cmb2-list-icons div i.spinner {
+    background: #FFFFFF;
+    visibility: visible;
+    float: none;
+    vertical-align: initial;
+}
+.cmb2-list-icons div i:after {
+    position: relative !important;
+    top: auto;
+    left: auto;
+    bottom: auto;
+
+}
+.cmb2-list-icons div i.filter{
+    float: none;
+}
+.cmb2-list-icons div i.arrow.left {
+    left: auto;
+}
+.cmb2-list-icons:after {
+    clear: both; content: " "; display: block;
+}
+
+
+#edittag .cmb-td{
+    margin-left: 210px;
+    float: none;
+    padding: 15px 10px;
+}
+
+@media all and (max-width: 774px) {
+    #edittag .cmb-th {
+        float: none;
+        padding:0px;
+        margin-top: 10px;
+    }
+    #edittag .cmb-td{
+        margin-left: 0px;
+        padding:0px;
+    }
+}

@@ -1,0 +1,122 @@
+// main: style.scss
+
+.wpu-profile-wrapper {
+	/* User Header Cover
+	------------------------------*/
+	.st-user-socials {
+		float: right;
+		margin-top: 15px;
+		margin-right: 20px;
+		@include for(screens-medium){
+			float: none;
+			text-align: center;
+			margin-right: 0px;
+		}
+	}
+
+	.user-header-cover {
+		height: 300px;
+		width: 100%;
+		background: url('assets/images/user-cover.jpg') bottom center;
+		background-size: cover;
+	}
+	.wpu-form-header .wpu-profile-cover {
+	    // default style here
+	    background-image: url('assets/images/user-cover.jpg');
+	    background-position: bottom center;
+	    background-size: cover;
+	}
+	.wpu-form-header .wpu-profile-avatar {
+	  // default style here
+	  background-image: url('assets/images/user-avatar.png');
+	}
+
+	.wpu-profile-meta ,
+	.wpu-form-profile .wpu-profile-meta,
+  .wpu-profile-mini .wpu-profile-meta{
+	    background: #ffffff;
+			border-bottom: 1px solid rgba(220, 220, 220, 0.08);
+		  border-left: 1px solid rgba(220, 220, 220, 0.08);
+		  border-right: 1px solid rgba(220, 220, 220, 0.08);
+		  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+		  padding-bottom: 20px;
+		  padding-top: 10px;
+	}
+
+	.fav-stores-box {
+	    padding: 20px;
+	    .image {
+	        min-height:94px;
+	        width: 100%;
+	    }
+	    .store-thumb {
+	        margin-bottom: 5px;
+	    }
+	    a {
+	        span {
+	            color: #666666;
+	        }
+	    }
+	}
+
+	.section-heading .button {
+	    background: $primary;
+	    color: #ffffff;
+			float: right;
+			margin-top: 6px;
+	}
+
+
+
+	.wpu-form-sidebar li {
+		margin: 0px;
+			a {
+				padding: 10px 15px;
+				color: $text;
+				background: none;
+				&:hover {
+					color: $primary;
+				}
+			}
+			&.active a {
+				color: $text;
+				background: #fff;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+			}
+	}
+	.wpu-errors-msg{
+			display: none;
+	}
+}
+
+.nothing-box {
+		width: 100%;
+		margin-bottom: 20px;
+		&:after {
+				clear:  both; display: block; content: " ";
+		}
+		p {
+			position: relative;
+			top: -5px;
+		}
+		.thumb {
+				border: 2px solid #f5f5f5;
+				width: 40%;
+				float: left;
+				margin-right: 15px;
+				text-align: center;
+				color: #2394CE;
+				padding: 10px 0px;
+				i{
+						font-size: 40px;
+						line-height: 33px;
+						&:before {
+								vertical-align: middle;
+						}
+				}
+		}
+}
+
+.best-coupons, .saved-coupons, .saved-stores {
+	margin-bottom: 40px;
+}

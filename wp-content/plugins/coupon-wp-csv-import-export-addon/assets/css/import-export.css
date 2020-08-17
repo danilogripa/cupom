@@ -1,0 +1,122 @@
+.clear {
+    clear: both;
+    display: block;
+}
+
+.wp-coupon-import-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.wp-coupon-ie-form {
+    width: 500px;
+    max-width: 100%;
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.upload-help {
+    color: #555d66;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    padding: 40px 0 0;
+    text-align: center;
+}
+.wp-cie-progress-wrapper {
+    display: none;
+}
+.wp-cie-progress {
+    width: 100%;
+    margin: 15px 0px;
+    display: block;
+    background: #b3b3b3;
+    height: 30px;
+    position: relative;
+    z-index: 3;
+}
+.wp-cie-progress .wp-cie-percent {
+    display: block;
+    width: 0%;
+    max-width: 100%;
+    background: #4b8729;
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+}
+
+.wp-cie-progress .wp-cie-label {
+   position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    z-index: 8;
+    color: #ffffff;
+}
+.wp-cie-progress-log {
+    border: 1px #ededed;
+    padding: 15px;
+    background: #ffffff;
+    max-height: 500px;
+    height: auto;
+    overflow: auto;
+}
+
+
+.wp-cie-settings::after {
+    clear: both; content: " ";
+    display: block;
+}
+.wp-cie-settings {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.wp-cie-settings *{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wp-cie-settings table {
+    width: 100%;
+}
+.wp-cie-settings table, .wp-cie-settings tr {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+.wp-cie-settings table thead th,
+.wp-cie-settings table thead td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.wp-cie-settings table td {
+    padding: 5px 15px;
+}
+
+.wp-cie-settings table td:nth-child(2) {
+    text-align: right;
+}
+
+.wp-cie-settings .col {
+    width: 33%;
+    float: left;
+    padding: 15px;
+}
+.wp-cie-settings .empty-selected {
+    background: #f7906f;
+}
+
+.wp-cie-actions {
+    margin-top: 15px;
+    display: block;
+}

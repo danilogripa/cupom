@@ -1,0 +1,194 @@
+// main: style.scss
+
+/* Content Widget Title */
+.content-area, .frontpage-before-main, .frontpage-after-main {
+	.widget-title {
+		font-size: 23px;
+	    font-weight: 300;
+	    letter-spacing: -0.3px;
+	    margin-bottom: 14px;
+	}
+}
+
+/* Newsletters
+------------------------------*/
+.newsletter-box-wrapper.shadow-box {
+	padding: 20px;
+	.newsletter-text {
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	input {
+		border-color: #eeeeee;
+		@include border-radius(2px);
+	}
+	.input .ui.button {
+		background: $primary;
+		color: #FFFFFF;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+	}
+	.sidebar-social {
+		display: inline-block;
+		margin-top: 15px;
+		a {
+			margin-bottom: 5px;
+			i {
+				color: #FFFFFF;
+			}
+			&:hover {
+				background: $primary;
+			}
+		}
+	}
+}
+
+/* Popular Stores
+------------------------------*/
+.widget_popular_stores {
+	.ui.grid {
+		margin: 0px -10px;
+	}
+	.ui.grid > .column:not(.row) {
+		padding: 10px;
+	}
+	.store-thumb {
+		line-height: 68px;
+	}
+}
+
+/* WP Widget: Calendar
+------------------------------*/
+.widget_calendar {
+	.widget-title {
+		display: none;
+	}
+	#wp-calendar caption {
+		font-weight: bold;
+		font-size: 15px ;
+		margin-bottom: 20px;
+		font-weight: 500;
+		margin-top: -4px;
+	}
+}
+.site-footer {
+	#wp-calendar caption {
+		text-align: left;
+		text-transform: uppercase;
+	}
+}
+
+/* Widget Search */
+.widget_search {
+
+}
+
+/* WP Widgets Shadow Style
+------------------------------*/
+#secondary .widget_recent_entries,#secondary .widget_categories,#secondary .widget_meta,
+#secondary .widget_archive, #secondary .widget_recent_comments, #secondary .widget_pages {
+	ul {
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+		background: #FFF;
+		padding: 20px;
+		list-style: none;
+		li {
+			margin: 0 0 10px 0px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #f5f5f5;
+			&:last-child {
+				margin-bottom: 0px;
+				padding-bottom: 0px;
+				border-bottom: 0px;
+			}
+		}
+	}
+}
+
+#secondary select {
+	width: 100%;
+}
+
+#secondary .widget_search .search-form {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+	background: #FFF;
+	padding: 20px;
+	list-style: none;
+	box-sizing: padding-box;
+	input {
+		width: 100%;
+	}
+	.search-field {
+		margin-bottom: 10px;
+		display: block;
+		box-sizing: border-box;
+	}
+	input[type="submit"] {
+		padding: 13px 23px 13px;
+	}
+}
+
+#secondary .widget_nav_menu .menu {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+	background: #FFF;
+	padding: 20px;
+	list-style: none;
+	li {
+		margin: 0 0 10px 0px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #f5f5f5;
+		&:last-child {
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			border-bottom: 0px;
+		}
+	}
+}
+
+
+.widget.st-slider-widget {
+	display: none;
+	&.s-added {
+		display: block;
+	}
+}
+.widget.widget_carousel {
+	display: none;
+	&.s-added {
+		display: block;
+	}
+}
+
+.widget_store_cat_filter{
+	.store-cat-filter-wrapper{
+		&.ui.list{
+			padding: 20px 20px 0px 20px;
+			margin-bottom: 0;
+			.wpcoupon-cat-filter-item{
+				margin-left: 0;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	.store-filter-sortby-wrapper{
+		&.ui.list{
+			padding: 20px 20px 20px 20px;
+			margin-top: 0;
+			.store-filter-sortby{
+				margin-left: 0;
+				margin-right: 5px;
+			}
+		}
+	}
+}
+.tax-coupon_category{
+	.widget_coupon_cat_filter{
+		margin-top: 40px;
+	}
+}
+
+
